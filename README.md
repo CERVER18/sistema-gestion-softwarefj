@@ -35,11 +35,5 @@ sistema-gestion-softwarefj/
 └── logs/
     └── sistema_fj.log # Archivo generado automáticamente con los errores
 
----
-## ⚙️ Cómo ejecutar el proyecto
 
-### Opción A: Simulación automática (Consola)
-Ejecute el motor principal para procesar las 10 transacciones de prueba:
-```bash
-python main.py
 
