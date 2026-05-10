@@ -89,3 +89,22 @@ Exception
 └── SoftwareFJError
     ├── ErrorValidacion
     └── ErrorOperativo
+
+#  Estructura del proyecto 
+
+sistema-gestion-softwarefj/
+│
+├── excepciones.py
+├── logger.py
+├── entidad_base.py
+├── cliente.py
+├── servicios.py
+├── reserva.py
+├── gestor.py
+├── main.py
+├── interfaz.py
+│
+├── logs/
+│   └── sistema_fj.log
+│
+└── README.md
