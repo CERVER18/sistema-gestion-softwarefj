@@ -1,0 +1,9 @@
+2026-05-10 10:15:01 | INFO | Cliente añadido a la lista: Juan Perez
+2026-05-10 10:15:02 | INFO | Reserva 101 exitosa. Monto: $290000
+2026-05-10 10:15:02 | ERROR | Fallo operativo en la reserva 102: Formato de correo inválido: maria.com
+2026-05-10 10:15:03 | INFO | Cliente añadido a la lista: Carlos Ruiz
+2026-05-10 10:15:03 | INFO | Reserva 103 exitosa. Monto: $250000
+2026-05-10 10:15:04 | ERROR | Fallo operativo en la reserva 104: El descuento no puede ser mayor al costo total.
+2026-05-10 10:15:04 | ERROR | Error crítico inesperado: unsupported operand type(s) for *: 'int' and 'str'
+2026-05-10 10:15:05 | WARNING | Operación 107 abortada por seguridad.
+2026-05-10 10:15:06 | INFO | Reserva 109 exitosa. Monto: $400000
