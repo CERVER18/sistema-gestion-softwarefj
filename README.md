@@ -90,6 +90,8 @@ Exception
     ├── ErrorValidacion
     └── ErrorOperativo
 
+---
+
 #  Estructura del proyecto 
 
 sistema-gestion-softwarefj/
