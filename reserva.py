@@ -1,5 +1,5 @@
 from excepciones import ErrorOperativo
-from logger import registrar
+from logger import registrar_log
 
 class Reserva:
     def __init__(self, id_res, cliente, servicio, duracion):
@@ -22,14 +22,14 @@ class Reserva:
         except Exception as e:
             # 3. Manejo de error y encadenamiento (raise from)
             self.estado = "FALLIDA"
-            registrar(f"Error procesando la reserva {self.id_res}: {e}", "error")
+            registrar_log(f"Error procesando la reserva {self.id_res}: {e}", "error")
             print(f"❌ ERROR: {e}")
             raise ErrorOperativo(f"Fallo crítico en reserva {self.id_res}") from e
             
         else:
             # 4. Bloque ELSE: Solo se ejecuta si NO hubo errores
             self.estado = "CONFIRMADA"
-            registrar(f"Reserva {self.id_res} confirmada. Monto: ${costo}")
+            registrar_log(f"Reserva {self.id_res} confirmada. Monto: ${costo}")
             print(f"✅ ÉXITO: Reserva confirmada. Total a facturar: ${costo}")
             return costo
             
@@ -43,12 +43,12 @@ class Reserva:
         try:
             if self.estado == "CONFIRMADA":
                 self.estado = "CANCELADA"
-                registrar(f"Reserva {self.id_res} cancelada exitosamente.", "warning")
+                registrar_log(f"Reserva {self.id_res} cancelada exitosamente.", "warning")
                 print(f"⚠️ RESERVA {self.id_res} CANCELADA.")
             else:
                 raise ErrorOperativo(f"No se puede cancelar. Estado actual: {self.estado}")
                 
         except ErrorOperativo as e:
-            registrar(f"Intento fallido de cancelación en Reserva {self.id_res}: {e}", "error")
+            registrar_log(f"Intento fallido de cancelación en Reserva {self.id_res}: {e}", "error")
             print(f"❌ ERROR AL CANCELAR: {e}")
             raise
