@@ -287,6 +287,13 @@ Demostrando que la aplicación permanece estable incluso ante errores críticos.
 
 
 ```markdown
+
+<img width="603" height="735" alt="Captura de pantalla 2026-05-10 030816" src="https://github.com/user-attachments/assets/91c448b1-305c-48e5-80d3-1087af39d52d" />
+
+
+
+
+
 ![Interfaz](imagenes/interfaz.png)
 ```
 
