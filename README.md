@@ -187,7 +187,7 @@ logs/sistema_fj.log
 ## Ejemplo real
 
 ```text
-2026-05-10 10:15:01 | INFO  | Cliente añadido: Juan Perez
+2026-05-10 10:15:01 | INFO  | Cliente añadido: Patricia Meneses
 2026-05-10 10:15:02 | INFO  | Reserva confirmada correctamente
 2026-05-10 10:15:03 | ERROR | Error procesando reserva: Datos incompletos
 ```
