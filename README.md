@@ -252,8 +252,8 @@ La GUI permite:
 
 | Documento | Nombre | Email | Resultado |
 |---|---|---|---|
-| 102030 | Juan Perez | juan@gmail.com | ✅ Correcto |
-| 203040 | Ana | ana.com | ❌ Email inválido |
+| 102030 | Patricia Meneses | pmeneses@gmail.com | ✅ Correcto |
+| 203040 | Ricardo | ricardo.com | ❌ Email inválido |
 | 304050 | M | mario@mail.com | ❌ Nombre inválido |
 
 ---
@@ -262,9 +262,9 @@ La GUI permite:
 
 | Servicio | Tipo | Tarifa Base |
 |---|---|---|
-| Sala VIP | ReservaSala | $80.000/hora |
-| Laptop Dell | AlquilerEquipo | $45.000/día |
-| Consultoría TI | AsesoriaEspecializada | $120.000/sesión |
+| Sala VIP | ReservaSala | $90.000/hora |
+| Laptop Dell | AlquilerEquipo | $50.000/día |
+| Consultoría TI | AsesoriaEspecializada | $130.000/sesión |
 
 ---
 
@@ -285,7 +285,6 @@ Demostrando que la aplicación permanece estable incluso ante errores críticos.
 
 # 📸 Vista del Proyecto
 
-Puedes agregar capturas aquí:
 
 ```markdown
 ![Interfaz](imagenes/interfaz.png)
