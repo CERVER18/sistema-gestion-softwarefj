@@ -296,7 +296,7 @@ Demostrando que la aplicación permanece estable incluso ante errores críticos.
 | Nombre | Rol |
 |---|---|
 | Cesar Enciso | Desarrollo y documentación |
-| Integrante 2 | Desarrollo |
+| John Rincon  | Desarrollo |
 | Integrante 3 | Desarrollo |
 | Integrante 4 | Desarrollo |
 | Integrante 5 | Desarrollo |
