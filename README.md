@@ -35,5 +35,25 @@ sistema-gestion-softwarefj/
 └── logs/
     └── sistema_fj.log # Archivo generado automáticamente con los errores
 
+---
 
+## ⚙️ Cómo ejecutar el proyecto
+
+El sistema permite la validación de los requisitos de dos maneras distintas:
+
+### 1. Simulación automática (Consola)
+Este modo ejecuta de forma secuencial las **10 operaciones de prueba** exigidas en la guía (mezclando casos de éxito y errores provocados). Es ideal para validar el manejo de excepciones y la generación de logs.
+* **Comando:**
+    ```bash
+    python main.py
+    ```
+
+### 2. Interfaz Gráfica Interactiva (Ventana)
+Este modo abre una ventana visual (GUI) desarrollada con Tkinter. Permite al usuario interactuar manualmente con el sistema, registrar clientes y servicios, y ver las respuestas de error en ventanas emergentes.
+* **Comando:**
+    ```bash
+    python interfaz.py
+    ```
+
+> **Nota:** Independientemente del modo de ejecución, todos los eventos se registrarán en tiempo real dentro del archivo `logs/sistema_fj.log`.
 
