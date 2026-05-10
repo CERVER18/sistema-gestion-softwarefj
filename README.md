@@ -35,6 +35,7 @@ sistema-gestion-softwarefj/
 └── logs/
     └── sistema_fj.log # Archivo generado automáticamente con los errores
 
+---
 ## ⚙️ Cómo ejecutar el proyecto
 
 ### Opción A: Simulación automática (Consola)
